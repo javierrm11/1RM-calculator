@@ -1,7 +1,9 @@
 export default function Footer() {
     return (
-        <footer className="bg-gray-900 p-4 text-center text-yellow-500" style={{ position: 'fixed', bottom: 0, width: '100%' }}>
-            <p>Hecho con ❤️ por Javier Ruiz Molero</p>
+        <footer className="border-t border-white/10 bg-slate-950/70 px-6 py-5 text-center text-sm text-slate-300 backdrop-blur-xl">
+            <p>
+                Hecho con <span className="text-cyan-300">❤️</span> por Javier Ruiz Molero
+            </p>
         </footer>
     );
 }
